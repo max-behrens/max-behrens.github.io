@@ -212,6 +212,7 @@ header {
 .about-section {
   background: radial-gradient(rgb(80 36 213 / 45%), rgb(0 3 36 / 83%));
   padding: 5vh 0vh;
+  border-top: 8px solid #f7f7f7;
 }
 
 .cv {
@@ -800,7 +801,7 @@ div {
 
 .card-image-one {
   grid-area: image;
-  background: url('../img/coseyapp.png');
+  background: url('../img/coseyapp.PNG');
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
@@ -816,7 +817,7 @@ div {
 
 .card-image-three {
   grid-area: image;
-  background: url('../img/coseysite.png');
+  background: url('../img/coseysite.PNG');
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
