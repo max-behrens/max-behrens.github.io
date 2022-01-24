@@ -1,16 +1,15 @@
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: system-ui;
+  position: relative;
+
 }
 
-@media (max-width: 450px) {
-  body {
-    margin: 0;
-    font-family: system-ui;
-    overflow: auto;
-    width: 445px;
-  } 
-}
+
 
 #anchor {
   padding-top: 50px;
@@ -304,38 +303,70 @@ details[open] summary ~ * {
   margin-left: -1.5px;
   content: "";
   background-color: #e9ecef;
-  height: calc(100% - 190px);
+  height: calc(100% - 295px);
+  max-height: 1558px;
 }
 
-@media (min-width: 760px) and (max-width: 990px) {
-  .timeline:before {
-    height: calc(100% - 300px);
-  }
+.img-fluid-uol {
+  padding-right: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
+
   .timeline:before {
-    height: calc(100% - 220px);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    content: "";
+    background-color: #e9ecef;
+    height: calc(100% - 295px);
+    max-height: 1975px;
   }
+
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
+
   .timeline:before {
-    height: calc(100% - 287px);
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    content: "";
+    background-color: #e9ecef;
+    height: calc(100% - 295px);
   }
+
+  .timeline > li .timeline-panel {
+    position: relative;
+    float: right;
+    width: 100%;
+    padding: 0 20px 0 100px;
+    text-align: left;
+    width: calc(100vw - 46px);
+    margin-top: 100px;
 }
 
-@media (min-width: 451px) and (max-width: 480px) {
-  .timeline:before {
-    height: calc(100% - 300px);
-  }
 }
 
-@media (max-width: 450px) {
-  .timeline:before {
-    height: calc(100% - 325px);
+
+
+@media (max-width: 1000px) {
+
+  .img-fluid-uol {
+    padding-right: 3px;
   }
+
 }
+
+
+
 
 
 .timeline > li {
@@ -350,12 +381,14 @@ details[open] summary ~ * {
 .timeline > li:after {
   clear: both;
 }
+@media (min-width: 769px) {
 .timeline > li .timeline-panel {
   position: relative;
   float: right;
   width: 100%;
   padding: 0 20px 0 100px;
   text-align: left;
+}
 }
 .timeline > li .timeline-panel:before {
   right: auto;
@@ -382,6 +415,23 @@ details[open] summary ~ * {
   border-radius: 100%;
   background-color: #d4b3c7;
 }
+
+@media (max-width: 1000px) {
+  .timeline > li .timeline-image {
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    text-align: center;
+    color: white;
+    border: 4px solid #e9ecef;
+    border-radius: 100%;
+    background-color: #d4b3c7;
+  }
+}
+
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
   line-height: 14px;
@@ -440,6 +490,20 @@ details[open] summary ~ * {
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
   margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+  .job {
+    font-size: 17pt;
+    font-weight: bold;
+    margin-top: 0px;
+    line-height: 30px;
+  }
+  .timeline .timeline-body > ul,
+  .timeline .timeline-body > p {
+    margin-bottom: 0;
+    font-size: 15pt;;
+  }
 }
 
 @media (min-width: 768px) {
@@ -764,6 +828,7 @@ div {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  padding: 0em 1em;
 }
 
 
@@ -966,8 +1031,6 @@ nav {
 nav .footer {
   background: transparent;
   padding-right: 32px;
-  padding-left: 41px;
-  padding-left: 54px;
 }
 
 ul {
