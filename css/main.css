@@ -1,3 +1,20 @@
+html {
+  background: radial-gradient(rgb(255 244 235 / 65%), rgb(211 124 98 / 44%)), url(../img/home-img.png) no-repeat center;
+    background-size: 100vw;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+@media (max-width: 1580px) {
+  html {
+    background: radial-gradient(rgb(255 244 235 / 65%), rgb(211 124 98 / 44%)), url(../img/home-img.png) no-repeat center;
+    background-size: 1793px;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+  }
+}
+
+
 html, body {
   overflow-x: hidden;
 }
@@ -160,8 +177,6 @@ header {
 
 .home-intro {
   padding: 50vh 0;
-  background: radial-gradient(rgb(255 244 235 / 65%), rgb(211 124 98 / 44%)), url(../img/home-img.png) no-repeat center;  background-size: cover;
-  background-blend-mode: multiply;
   color: white;
   text-align: center;
   padding-top: 270px;
@@ -209,9 +224,10 @@ header {
 }
 
 .about-section {
-  background: radial-gradient(rgb(80 36 213 / 45%), rgb(0 3 36 / 83%));
+  background: radial-gradient(rgb(165 112 215 / 89%), rgb(9 2 38));
   padding: 5vh 0vh;
   border-top: 8px solid #f7f7f7;
+  border-bottom: 8px solid #f7f7f7;
 }
 
 .cv {
@@ -229,8 +245,6 @@ header {
 
   .home-intro {
     padding: 50vh 0;
-    background: radial-gradient(rgb(255 244 235 / 65%), rgb(211 124 98 / 44%)), url(../img/home-img.png) no-repeat center;  background-size: cover;
-    background-blend-mode: multiply;
     color: white;
     text-align: center;
     padding-top: 230px;
@@ -783,7 +797,8 @@ div {
 }
 
 .languages {
-  background: radial-gradient(rgb(57 101 173 / 31%), rgba(57, 101, 173, 1));
+  background: radial-gradient(rgb(150 186 245 / 84%), rgb(34 79 153));
+  border-top: 8px solid white;
 }
 
 .languages .option:hover {
@@ -857,7 +872,7 @@ div {
   display: flex;
   justify-content:space-around;
   /*background: radial-gradient(rgb(140 57 173 / 24%), rgb(94 23 96 / 78%));*/
-  padding-top: 35px;
+  padding-top: 14px;
   flex-wrap: wrap;
   padding-left: 100px;
   padding-right: 100px;
@@ -938,7 +953,12 @@ div {
   /* padding: 1em 10em; */
   /* align-items: center; */
   text-align: center;
-  padding-top: 0px;
+  padding-top: 13px;
+  color: black;
+  padding-bottom: 33px;
+  background: linear-gradient(rgb(255 255 255), rgb(255 255 255 / 80%), rgb(255 255 255 / 0%));
+  border-top: 8px solid black;
+  margin-top: 51px;
 }
 
 @media (max-width: 800px) {
@@ -1092,6 +1112,10 @@ a {
 
 .footerName {
   min-width: 103px;
+}
+
+ul.footer {
+  padding-left: 20px;
 }
 
 ul.footer {
