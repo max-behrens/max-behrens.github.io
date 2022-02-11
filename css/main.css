@@ -235,7 +235,7 @@ header {
 }
 
 .about-section {
-  background: radial-gradient(rgb(177 127 225 / 92%), rgb(39 20 114 / 77%));
+  background: radial-gradient(rgb(177 127 225 / 92%), rgb(17 5 62 / 89%));
   padding: 5vh 0vh;
   border-top: 8px solid #f7f7f7;
   border-bottom: 8px solid #f7f7f7;
@@ -651,6 +651,7 @@ details[open] summary ~ * {
 .text-muted {
     --bs-text-opacity: 1;
     color: white !important;
+    font-size: 13pt;
 }
 
 p {
