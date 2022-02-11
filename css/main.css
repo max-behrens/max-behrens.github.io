@@ -335,7 +335,7 @@ details[open] summary ~ * {
   margin-left: -1.5px;
   content: "";
   background-color: #e9ecef;
-  height: calc(100% - 295px);
+  height: calc(100% - 243px);
   max-height: 1558px;
 }
 
