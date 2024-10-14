@@ -3,7 +3,6 @@ html {
     background-size: 100vw;
     background-attachment: fixed;
     background-blend-mode: multiply;
-    scroll-behavior: smooth;
 }
 
 @media (max-width: 1580px) {
