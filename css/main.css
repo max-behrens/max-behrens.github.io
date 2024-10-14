@@ -355,6 +355,14 @@ details[open] summary ~ * {
 
 @media (max-width: 800px) {
 
+  nav {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    margin-right: 0px;
+  }
+
   .timeline:before {
     position: absolute;
     top: 0;
