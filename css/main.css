@@ -932,7 +932,7 @@ div {
 
 .card-image-one {
   grid-area: image;
-  background: url('../img/crud.PNG');
+  background: url('../img/crud.png');
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
