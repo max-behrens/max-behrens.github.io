@@ -820,7 +820,7 @@ div {
 
 .languages {
   background: radial-gradient(rgb(150 186 245 / 84%), rgb(34 79 153));
-  border-top: 8px solid white;
+  /* border-top: 8px solid white; */
 }
 
 .languages .option:hover {
