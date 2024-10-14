@@ -655,7 +655,7 @@ details[open] summary ~ * {
 
 .text-muted {
     --bs-text-opacity: 1;
-    color: white !important;
+    color: black;
     font-size: 13pt;
 }
 
