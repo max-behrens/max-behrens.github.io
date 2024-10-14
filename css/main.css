@@ -818,7 +818,7 @@ div {
 }
 
 .languages {
-  background: radial-gradient(rgb(150 186 245 / 84%), rgb(34 79 153));
+  background: radial-gradient(#208eff40, #17166a85);
   /* border-top: 8px solid white; */
 }
 
@@ -978,7 +978,7 @@ div {
   color: black;
   padding-bottom: 33px;
   background: linear-gradient(rgb(255 255 255), rgb(255 255 255 / 80%), rgb(255 255 255 / 0%));
-  border-top: 8px solid black;
+  /* border-top: 8px solid black; */
   margin-top: 51px;
 }
 
