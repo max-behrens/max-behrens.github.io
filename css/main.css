@@ -12,6 +12,8 @@ html {
     background-size: 1793px;
     background-attachment: fixed;
     background-blend-mode: multiply;
+    scroll-behavior: smooth;
+
   }
 }
 
@@ -21,6 +23,8 @@ html {
     background-size: 1400px;
     background-attachment: fixed;
     background-blend-mode: multiply;
+    scroll-behavior: smooth;
+
   }
 }
 
