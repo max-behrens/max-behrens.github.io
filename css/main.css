@@ -982,23 +982,23 @@ div {
 
   .card {
     display: inline-grid;
-    grid-template-columns: 381px;
-    grid-template-rows: 320px 108px 112px;
+    grid-template-columns: 363px;
+    grid-template-rows: 244px;
     grid-template-areas:
-        "image"
-        "text"
-        "stats";
-    font-family: roboto;
+  "image" 
+  "text " 
+  "stats";
+    font-family: system-ui;
     border-radius: 18px;
     background: white;
     box-shadow: 5px 5px 15px rgb(0 0 0 / 90%);
     text-align: center;
     transition: 0.5s ease;
     cursor: pointer;
-    margin-bottom: 86px;
+    margin-bottom: 100px;
     margin-left: 25px;
     margin-right: 25px;
-}
+  }
 
 
   .card-image {
@@ -1012,22 +1012,23 @@ div {
 }
 
 @media (max-width: 550px) {
+
   .card {
     display: inline-grid;
-    grid-template-columns: 319px;
-    grid-template-rows: 239px 108px 112px;
+    grid-template-columns: 363px;
+    grid-template-rows: 244px;
     grid-template-areas:
-        "image"
-        "text"
-        "stats";
-    font-family: roboto;
+  "image" 
+  "text " 
+  "stats";
+    font-family: system-ui;
     border-radius: 18px;
     background: white;
     box-shadow: 5px 5px 15px rgb(0 0 0 / 90%);
     text-align: center;
     transition: 0.5s ease;
     cursor: pointer;
-    margin-bottom: 86px;
+    margin-bottom: 100px;
     margin-left: 25px;
     margin-right: 25px;
   }
