@@ -411,6 +411,14 @@ details[open] summary ~ * {
 
 }
 
+@media (min-width: 1001px) {
+
+  .main-nav {
+    margin-right: 79px;
+  }
+
+}
+
 
 
 
@@ -1125,9 +1133,6 @@ nav {
   position: sticky;
 }
 
-.main-nav {
-  margin-right: 79px;
-}
 
 nav .footer {
   background: transparent;
