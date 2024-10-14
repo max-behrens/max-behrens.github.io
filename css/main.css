@@ -912,8 +912,8 @@ div {
 
 .card {
   display: inline-grid;
-  grid-template-columns: 442px;
-  grid-template-rows: 237px;
+  grid-template-columns: 505px;
+  grid-template-rows: 233px;
   grid-template-areas:
 "image" 
 "text " 
@@ -978,7 +978,7 @@ div {
   background: url('../img/Stability.png');
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  background-size: cover;
+  background-position-x: center;
 }
 
 .project-title {
