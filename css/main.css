@@ -1096,6 +1096,14 @@ div {
   box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
 
+.education-image {
+  width: 100px;
+}
+
+.employment-image {
+  width: 100px;
+}
+
 
 /* FOOTER */
 
@@ -1104,6 +1112,7 @@ nav {
   display: flex;
   justify-content: space-between;
   position: sticky;
+  margin-right: 30px;
 }
 
 nav .footer {
