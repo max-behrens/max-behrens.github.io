@@ -906,8 +906,6 @@ div {
   /*background: radial-gradient(rgb(140 57 173 / 24%), rgb(94 23 96 / 78%));*/
   padding-top: 75px;
   flex-wrap: wrap;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 .card {
