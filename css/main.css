@@ -195,8 +195,8 @@ header {
 
 .title-container {
   background: radial-gradient(#208eff40, #17166a85);
-  border-top: 8px solid #f7f7f7;
-  border-bottom: 8px solid #f7f7f7;
+  /* border-top: 8px solid #f7f7f7;
+  border-bottom: 8px solid #f7f7f7; */
 }
 
 .subtitle-container {
@@ -235,10 +235,10 @@ header {
 }
 
 .about-section {
-  background: radial-gradient(rgb(177 127 225 / 92%), rgb(17 5 62 / 89%));
+  background: radial-gradient(#208eff40, #17166a85);
   padding: 5vh 0vh;
-  border-top: 8px solid #f7f7f7;
-  border-bottom: 8px solid #f7f7f7;
+  /* border-top: 8px solid #f7f7f7;
+  border-bottom: 8px solid #f7f7f7; */
 }
 
 .cv {
