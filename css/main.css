@@ -355,7 +355,7 @@ details[open] summary ~ * {
 
 @media (max-width: 800px) {
 
-  nav {
+  .main-nav {
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -1127,6 +1127,9 @@ nav {
   display: flex;
   justify-content: space-between;
   position: sticky;
+}
+
+.main-nav {
   margin-right: 79px;
 }
 
