@@ -899,10 +899,12 @@ div {
     height: 100%;
     padding: 0em 1em;
 }
-
-.nav-languages {
-  display: none;
 }
+
+@media (max-width: 460px) {
+  .nav-languages {
+    display: none;
+  }
 }
 
 
