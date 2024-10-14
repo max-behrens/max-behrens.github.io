@@ -932,7 +932,7 @@ div {
 
 .card-image-one {
   grid-area: image;
-  background: url('../img/coseyapp.PNG');
+  background: url('../img/crud.PNG');
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
@@ -940,7 +940,7 @@ div {
 
 .card-image-two {
   grid-area: image;
-  background: url('../img/game.png');
+  background: url('../img/weather.png');
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
