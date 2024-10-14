@@ -912,12 +912,12 @@ div {
 
 .card {
   display: inline-grid;
-  grid-template-columns: 478px;
-  grid-template-rows: 356px 80px 100px;
+  grid-template-columns: 442px;
+  grid-template-rows: 237px;
   grid-template-areas:
-      "image"
-      "text"
-      "stats";
+"image" 
+"text " 
+"stats";
   font-family: system-ui;
   border-radius: 18px;
   background: white;
@@ -1050,7 +1050,7 @@ div {
 
 .card-text {
   grid-area: text;
-  margin:25px;
+  margin:13px;
 }
 
 .card-text .date {
