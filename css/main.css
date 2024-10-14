@@ -887,7 +887,7 @@ div {
 
 .projectFlex {
   display: flex;
-  justify-content:space-around;
+  justify-content:space-between;
   /*background: radial-gradient(rgb(140 57 173 / 24%), rgb(94 23 96 / 78%));*/
   padding-top: 75px;
   flex-wrap: wrap;
@@ -897,12 +897,12 @@ div {
 
 .card {
   display: inline-grid;
-  grid-template-columns: 478px;
-  grid-template-rows: 356px 80px 100px;
+  grid-template-columns: 363px;
+  grid-template-rows: 244px;
   grid-template-areas:
-      "image"
-      "text"
-      "stats";
+"image" 
+"text " 
+"stats";
   font-family: system-ui;
   border-radius: 18px;
   background: white;
