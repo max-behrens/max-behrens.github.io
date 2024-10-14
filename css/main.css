@@ -899,6 +899,10 @@ div {
     height: 100%;
     padding: 0em 1em;
 }
+
+.nav-languages {
+  display: none;
+}
 }
 
 
