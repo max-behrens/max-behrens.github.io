@@ -936,14 +936,16 @@ div {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
+  background-position-x: center;
 }
 
 .card-image-two {
   grid-area: image;
-  background: url('../img/weather.png');
+  background: url('../img/weather-2.png');
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
+  background-position-x: center;
 }
 
 .card-image-three {
@@ -997,20 +999,20 @@ div {
 
   .card {
     display: inline-grid;
-    grid-template-columns: 381px;
-    grid-template-rows: 320px 108px 112px;
+    grid-template-columns: 466px;
+    grid-template-rows: 209px;
     grid-template-areas:
-        "image"
-        "text"
-        "stats";
-    font-family: roboto;
+  "image" 
+  "text " 
+  "stats";
+    font-family: system-ui;
     border-radius: 18px;
     background: white;
     box-shadow: 5px 5px 15px rgb(0 0 0 / 90%);
     text-align: center;
     transition: 0.5s ease;
     cursor: pointer;
-    margin-bottom: 86px;
+    margin-bottom: 100px;
     margin-left: 25px;
     margin-right: 25px;
 }
