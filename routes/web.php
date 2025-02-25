@@ -26,7 +26,7 @@ use App\Http\Controllers\Dashboard\PostController as DashboardPostController;
 
 // Routes where login is not required.
 Route::get('/', function () {
-    return Inertia::render('Dashboard/Index');
+    return Inertia::render('HomeSection/Index');
 })->name('dashboard');
 
 // Website / portfolio routes:
@@ -51,9 +51,9 @@ Route::get('/languages', function () {
 Route::prefix('dashboard')
     ->middleware(['auth', 'verified'])
     ->group(function () {
-        // Route::get('/', function () {
-        //     return Inertia::render('Dashboard/Index');
-        // })->name('dashboard');
+        Route::get('/', function () {
+            return Inertia::render('Dashboard/Index');
+        })->name('dashboard');
 
         Route::resource('posts', DashboardPostController::class)->except(['update']);
         Route::prefix('posts')->group(function () {
