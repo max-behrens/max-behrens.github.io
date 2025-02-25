@@ -51,9 +51,9 @@ Route::get('/languages', function () {
 Route::prefix('dashboard')
     ->middleware(['auth', 'verified'])
     ->group(function () {
-        Route::get('/', function () {
-            return Inertia::render('Dashboard/Index');
-        })->name('dashboard');
+        // Route::get('/', function () {
+        //     return Inertia::render('Dashboard/Index');
+        // })->name('dashboard');
 
         Route::resource('posts', DashboardPostController::class)->except(['update']);
         Route::prefix('posts')->group(function () {
