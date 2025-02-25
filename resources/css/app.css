@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Add global styles below */
+input {
+    background-color: rgba(103, 172, 166, 0.473) !important; /* Change input background globally */
+    color: black !important;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+.tab-bordered {
+    font-size: 1.4rem;
+}
+
+.py-12 {
+    background-color: rgba(171, 221, 213, 0.342) !important;
+    background: radial-gradient(rgb(255 244 235 / 65%), rgb(211 124 98 / 30%)), url(../img/home-img.png) no-repeat center center fixed; /* Added background image */
+    background-size: 100%;
+    flex-grow: 1;
+}
+
+.py-2-padding {
+    padding-bottom: 4vh;
+}
+
+.text-gray-600 {
+    color: black;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.max-w-7xl {
+    max-width: 120rem;
+}
+
+.text-center-transparent {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.541);
+    text-align: center;
+
+}
+
+.py-16 {
+    background-color: rgba(201, 169, 152, 0.342) !important;
+    background-image: none !important; /* Prevent any background image */
+}
+
+.home-intro {
+    background-color: rgba(171, 221, 213, 0.342) !important;
+}
+
+/* Override the table header */
+.table thead tr,
+.table thead th {
+    background-color: rgba(58, 94, 91, 0.432) !important;
+    color: white !important;
+}
+/* Body styles - more specific selectors */
+.table tbody tr,
+.table tbody td,
+.table.table-zebra tbody tr,
+.table.table-zebra tbody tr:nth-child(even) {
+    background-color: rgba(127, 173, 170, 0.377) !important;
+    color: black !important;
+}
+
+.table.table-zebra tbody tr:nth-child(odd) {
+    background-color: rgba(52, 65, 63, 0) !important;
+}
+
+.btn-warning {
+    background-color: rgba(255, 255, 255, 0.541) !important;
+    border-color: white !important;
+}
+
+.btn-error {
+    background-color: rgba(255, 255, 255, 0.541) !important;
+    border-color: white !important;
+}
+
+
+.py-12 {
+    background-color: rgba(171, 221, 213, 0.342) !important;
+}
+
+
+
+/* Make the sticky position only apply on larger screens */
+.table th:first-child {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    z-index: 11;
+}
+
+/* Disable sticky on mobile */
+@media (max-width: 767px) {
+    .table th:first-child {
+        position: static;
+    }
+}
