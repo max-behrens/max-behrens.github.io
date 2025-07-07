@@ -43,8 +43,6 @@ Thanks to https://github.com/bruzp/laravel-inertia.git for the inital template.
 
 Follow these steps to run this project on your localhost.
 
-### Part 1
-
 Set up codebase locally:
 
 1. Clone the repo
@@ -82,57 +80,3 @@ Set up codebase locally:
    ```sh
    php artisan serve
    ```
-1. Run symlinks
-   ```sh
-   php artisan storage:link
-   ```
-   
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-### Part 2
-
-Set up .env with API keys:
-
-1. Create an account on OpenAI's website,
-   Generate an API key from the OpenAI dashboard,
-   Add the following line to your .env file:
-   ```sh
-   OPENAI_API_KEY=your-openai-api-key e.g. 'sk-....'
-   ```
-2. Also locate your organisation key in the OpenAI dashboard,
-   and add the following line to your .env file:
-   (You may need to set up a subscription with openAI)
-   ```sh
-   OPENAI_ORGANISATION=your_org_id e.g: 'org-....'
-   ```
-3. Create an account on OpenWeatherMap.
-   Generate an API key for access to their weather data.
-   Add the following line to your .env file:
-   ```sh
-   WEATHER_API_KEY=your-weather-api-key
-   ```
-4. After adding the keys, run the following command to cache the configurations:
-   ```sh
-   php artisan config:cache
-   ```
-   
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- User Log In Details -->
-## User Log In Details
-
-Admin User <br/>
-username: test_admin@test.com <br/>
-password: password <br/>
-
-Test User <br/>
-username: test@test.com <br/>
-password: password
-
-ReadOnly User <br/>
-username: test_readonly@test.com <br/>
-password: password
-
-<p align="right">(<a href="#top">back to top</a>)</p>
