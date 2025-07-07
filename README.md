@@ -13,8 +13,7 @@
     <li>
       <a href="#installation">Installation</a>
       <ul>
-        <li><a href="#part-1">### Part 1 - Set up codebase locally</a></li>
-        <li><a href="#part-2">### Part 2 - Set up .env with API Keys</a></li>
+        <li><a href="#part-1">### Set up codebase locally</a></li>
       </ul>
     </li>
     <li><a href="#user-log-in-details">User Log In Details</a></li>
@@ -26,11 +25,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is my Laravel PHP Project (with Vue.js and Inertia), that fetches forecast data for an inputted city,
-and calculates a visual display of climate metrics based on the area's weather; informed by summarisations
-made by openAI that uses current climate statics to contextualise the data.
-
-Thanks to https://github.com/bruzp/laravel-inertia.git for the inital template.
+This is my personal portfolio, containing information of my experience as a software developer, and as a mathetmatics and computer science teacher.
 
 ### Built With
 
