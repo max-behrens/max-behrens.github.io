@@ -12,9 +12,6 @@
     </li>
     <li>
       <a href="#installation">Installation</a>
-      <ul>
-        <li><a href="#part-1">### Set up codebase locally</a></li>
-      </ul>
     </li>
     <li><a href="#user-log-in-details">User Log In Details</a></li>
   </ol>
