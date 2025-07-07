@@ -23,6 +23,7 @@
 ## About The Project
 
 This is my personal portfolio, containing information of my experience as a software developer, and as a mathetmatics and computer science teacher.
+(Image used from http://www.frostedsyntax.com/)
 
 ### Built With
 
